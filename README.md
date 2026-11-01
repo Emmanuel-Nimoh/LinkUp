@@ -11,7 +11,7 @@ npm install
 npx expo start
 ```
 
-Scan the QR code with Expo Go, or press `i` for the iOS simulator. The app ships with demo data (a "Friday Crew" group and an open "Birthday dinner" plan) and saves changes on-device.
+Scan the QR code with Expo Go, press `i` for the iOS simulator (Mac), or run `npx expo start --web` for a browser preview. The app ships with demo data (a "Friday Crew" group and an open "Birthday dinner" plan) and saves changes on-device.
 
 "Add to calendar" uses `expo-calendar`, which is not in Expo Go. Build a development build to try it:
 
